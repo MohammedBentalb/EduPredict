@@ -5,11 +5,11 @@ from data_profiling import ProfileReport
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent # makhdamach f notbook\
+ROOT = Path(__file__).resolve().parent.parent # makhdamach f notbook
 
 # %%
 def load_data():
-    return pd.read_csv(ROOT / "data/raw/dataset.csv")
+    return pd.read_csv(ROOT / "Data/Raw/dataset.csv")
 # %%
 def fill_with_mode(df: pd.DataFrame, column: str):
     df = df.copy()
