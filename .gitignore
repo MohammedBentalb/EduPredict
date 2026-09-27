@@ -1,2 +1,7 @@
 Helpers
 .idea
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+Data/
